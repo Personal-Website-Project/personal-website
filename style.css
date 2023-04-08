@@ -1,0 +1,58 @@
+* {
+  margin: 0.5rem;
+  padding: 0.25rem;
+  box-sizing: 0rem;
+  border-style: ridge;
+  border-color: black;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  background-color: blueviolet;
+  border: solid slategray;
+  border-width: 0.5rem;
+  font-family: "The Girl Next Door", cursive;
+  font-size: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro {
+  margin: 1rem;
+  padding: 0.5rem;
+  background-color: aqua;
+  font-family: "The Girl Next Door", cursive;
+  font-size: large;
+}
+
+.img {
+  border: solid 0.5rem;
+  border-color: darkslateblue;
+  display: flex;
+  justify-content: center;
+}
+
+#selfpic {
+  width: 9rem;
+  margin: auto;
+}
+
+.media-link {
+  border: solid thin;
+  border-color: slategrey;
+  margin: 0.5rem;
+  padding: 0.25rem;
+}
+
+h1 {
+  font-family: "The Girl Next Door", cursive;
+}
+
+h2 {
+  font-family: "The Girl Next Door", cursive;
+}
+
+.quote {
+  font-family: "The Girl Next Door", cursive;
+}
