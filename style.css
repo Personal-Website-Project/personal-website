@@ -2,7 +2,7 @@
   margin: 0.5rem;
   padding: 0.25rem;
   box-sizing: 0rem;
-  border-style: ridge;
+  font-family: "The Girl Next Door", cursive;
   border-color: black;
 }
 
@@ -12,9 +12,7 @@
   background-color: blueviolet;
   border: solid slategray;
   border-width: 0.5rem;
-  font-family: "The Girl Next Door", cursive;
   font-size: 5rem;
-  justify-content: center;
   align-items: center;
 }
 
@@ -22,7 +20,6 @@
   margin: 1rem;
   padding: 0.5rem;
   background-color: aqua;
-  font-family: "The Girl Next Door", cursive;
   font-size: large;
 }
 
@@ -47,14 +44,13 @@
   border-color: slategrey;
 }
 
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+}
+
 h1 {
-  font-family: "The Girl Next Door", cursive;
-}
-
-h2 {
-  font-family: "The Girl Next Door", cursive;
-}
-
-.quote {
-  font-family: "The Girl Next Door", cursive;
+  font: bold;
 }
