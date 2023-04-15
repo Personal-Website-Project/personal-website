@@ -26,6 +26,10 @@
   font-size: large;
 }
 
+.intro:hover {
+  background-color: yellow;
+}
+
 .img {
   border: solid 0.5rem;
   border-color: darkslateblue;
@@ -39,10 +43,8 @@
 }
 
 .media-link {
-  border: solid thin;
+  width: 5rem;
   border-color: slategrey;
-  margin: 0.5rem;
-  padding: 0.25rem;
 }
 
 h1 {
