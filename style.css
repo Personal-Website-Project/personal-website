@@ -1,56 +1,62 @@
 * {
-  margin: 0.5rem;
-  padding: 0.25rem;
-  box-sizing: 0rem;
-  font-family: "The Girl Next Door", cursive;
-  border-color: black;
+	margin: 0.5rem;
+	padding: 0.25rem;
+	box-sizing: 0rem;
+	font-family: 'The Girl Next Door', cursive;
+	border-color: black;
 }
 
 .title {
-  display: flex;
-  justify-content: center;
-  background-color: blueviolet;
-  border: solid slategray;
-  border-width: 0.5rem;
-  font-size: 5rem;
-  align-items: center;
+	display: flex;
+	justify-content: center;
+	background-color: blueviolet;
+	border: solid slategray;
+	border-width: 0.5rem;
+	font-size: 5rem;
+	align-items: center;
 }
 
 .intro {
-  margin: 1rem;
-  padding: 0.5rem;
-  background-color: aqua;
-  font-size: large;
+	margin: 1rem;
+	padding: 0.5rem;
+	background-color: aqua;
+	font-size: large;
 }
 
 .intro:hover {
-  background-color: yellow;
+	background-color: yellow;
 }
 
 .img {
-  border: solid 0.5rem;
-  border-color: darkslateblue;
-  display: flex;
-  justify-content: center;
+	border: solid 0.5rem;
+	border-color: darkslateblue;
+	display: flex;
+	justify-content: center;
 }
 
 #selfpic {
-  width: 9rem;
-  margin: auto;
+	width: 9rem;
+	margin: auto;
 }
 
 .media-link {
-  width: 5rem;
-  border-color: slategrey;
+	width: 5rem;
+	border-color: slategrey;
 }
 
 .form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: bisque;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: bisque;
 }
 
 h1 {
-  font: bold;
+	font: bold;
+}
+
+@media screen and (max-width: 780px) {
+	h3 {
+		font-size: 30px;
+	}
 }
